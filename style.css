@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 @font-face {
     font-family: 'Roboto';
     src: url('fonts/subset-Roboto-Medium.eot');
@@ -28,214 +32,184 @@
     font-display: swap;
 }
 
+
+
 .first {
     background: #EEEFF1;
-    width: auto;
+    padding-top: 79px;
+    padding-bottom: 141px;
 }
 
-.heading {
-    padding-top: 79px;
-    width: 1110px;
-    margin: 0 399px;
+.container {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.items{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 42px;
+ }
 
 .link {
-    font-family:'Roboto','sans-serif';
-    font-weight: 500;
     color: #000000;
-    display: inline-block;
     font-size: 16px;
     line-height: 18px;
-    text-decoration: none;
-    margin-right: 42px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    padding-bottom: 160px;
-    width: auto;
+    text-decoration: none;
 }
 
+.link.active,
 .link:hover {
     color:#34547A;
+    font-weight: 500;
 }
 
-.title{
-    font-family: 'Roboto','sans-serif';
+.navigation {
+    margin-bottom: 160px;
+}
+
+.title {
     font-weight: 500;
     font-size: 48px;
     line-height: 60px;
     color: #000000;
-    text-align: left;
+    margin-bottom: 45px;
 }
 
 .text {
-    font-family: 'Roboto', 'sans-serif';
-    font-weight: 400;
     width: 540px;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
-    padding-top: 45px;
-    padding-bottom: 54px;
-    line-height: 26px;
-    align-items: center;
+    margin-bottom: 54px;
 }
 
-button {
-   font-family: 'Roboto', 'sans-serif';
-    font-weight: 400;
+.text.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.button {
     color: #FFFFFF;
     background: #34547A;
-    padding: 19px 41px 20px 41px;
+    display: inline-block;
+    vertical-align: top;
     font-size: 16px;
     line-height: 26px;
-    margin-bottom: 141px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
     text-transform: uppercase;
+    padding: 19px 41px 20px 41px;
 }
 
-button:hover {
-    color: #bfd5f5;
+.button:hover {
+    color: #dfe9f7;
 }
 
 
-
-.section {
-    background-color: #FFFFFF;;
-    padding-top: 112px;
-    width: 1110px;
-    margin: 0 399px;
-}
-
-.subtitle { 
-    font-family: 'Roboto', 'sans-serif';
+.sub-title { 
     font-weight: 500;
     color: #000000;
     font-size: 32px;
     line-height: 38px;
     text-align: center; 
+    margin-bottom: 42px;
 }
 
-.content { 
-    font-family: 'Roboto', 'sans-serif';
-    font-weight: 400;
-    align-items: center;
-    font-size: 16px;
-    line-height: 26px;
-    color: #727272;
-    padding-top: 45px;
-    padding-bottom: 54px;
-    line-height: 26px;
-    width: 540px;
-    margin: 0px 291px 89px 291px;
-    text-align: center; 
+.about {
+    padding-top: 112px;
+    padding-bottom: 89px;
+    background-color: #f9f9f9;
 }
 
-.grid {
+.about.text {
+    margin-bottom: 0;
+}
+
+
+.cards {
     background-color: #34547A;
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: auto;
     text-align: center;
 }
 
-.logo {
-    width: 50;
-    height: 47;
+.card {
     display: inline-block;
-    margin: 100px 20px 100px 0px;
+    vertical-align: top;
+    margin-right: 49px ;
+}
+
+.card:last-child{
+    margin-right: 0;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    
 }
 
 .desc {
     display: inline-block;
+    vertical-align: top;
     color:#FFFFFF;
-    width: 70px;
-    margin: 0 0 0 20px;
-    margin: 100px 55px 100px 0;
+    padding-top: 3px;
 }
 
 .number {
-    font-family: 'Roboto', 'sans-serif';
     font-size: 21px;
     font-weight: 500px;
     line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
     color: #FFFFFF;
     padding-bottom: 5px;
 }
 
 .project {
-    font-family: 'Roboto', 'sans-serif';
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    margin: 0 0 5px 0;
 }
 
 .box{
-    background: #FFFFFF;
+    background: #EEEFF1;
     padding-top: 100px;
-    padding-bottom: 46px;
-    padding-top: 112px;
-    width: 1110px;
-    margin: 0px 399px;
-    text-align: center;
+    padding-bottom: 100px;
 }
 
-.slogan  {
-    margin-bottom: 42px;
+.box.text{
+    margin-bottom: 46px;
 }
 
-.caption {
-    font-family: 'Roboto', 'sans-serif';
-    font-weight: 500;
-    color: #000000;
-    font-size: 32px;
-    line-height: 38px; 
-    text-align: center; 
-    padding-bottom: 42px;
-}
-
-.container {
-    font-family: 'Roboto', 'sans-serif';
-    font-weight: 400;
-    color: #727272;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    Width: 540px;
-    margin: 0px 291px 89px 291px;
-}
 
 .video {
     display: block;
     width: 1110px;
     height: 600px;
+
 }
 
 .footer {
-    width: auto;
-    text-align: left;
     padding: 50px 0 47px 0;
     background-color: #34547A;
-}
-
-.holder{
-    padding-left: 430px;
+    color: #fff;
 }
 
 .user {
-    font-family: 'Roboto', 'sans-serif';
     font-weight: 500;
     font-size: 21px;
     line-height: 24px;
-    width: 540px;
-    color: #FFFFFF;
-    margin: 0 0 15px 0px;
+    margin-bottom: 15px;
 }
+
 .copy {
-    font-family: 'Roboto', 'sans-serif';
-    font-weight: normal;
     font-size: 13px;
     line-height: 15px;
-    width: 540px;
-    color: #FFFFFF;
 }
  
